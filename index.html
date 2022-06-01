@@ -9,11 +9,36 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style1.css">
         <title>My Business</title>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+     url("business.jpg");
+    width: 100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+.middle{
+    height: 80vh;
+    width: 80%;
+    display:flex;
+    justify-content:start;
+    align-items:center;
+}
+.middle h1{
+    font-size:60px;
+}
+        </style>
 </head>
 <body>
     <section class="header">
         <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-dark">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">Navbar</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
